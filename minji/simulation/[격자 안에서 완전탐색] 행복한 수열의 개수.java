@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 // 총 2n개의 수열(n개 열, n개 행) 중 연속하여 m개 이상의 동일한 원소가 나오는 순간이 존재하는 수열의 개수를 출력하라.
-public class 행복한 수열의 개수 {
+public class 행복한_수열의_개수 {
     public static void main(String[] args) throws IOException {
         int ans = 0;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
