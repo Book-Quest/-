@@ -25,12 +25,7 @@ public class Main {
                     targetRow = targetRow == 0 ? 1 : 0;
                     targetCol = targetCol - n;
                 }
-                try {
-                    move[targetRow][targetCol] = conveyorBelt[i][k];
-                } catch (ArrayIndexOutOfBoundsException e){
-                    e.printStackTrace();
-                    e.getCause();
-                }
+                move[targetRow][targetCol] = conveyorBelt[i][k];
             }
         }
         for(int i=0; i<move.length; i++) {
